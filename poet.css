@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 35px;
+
+}
+
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+
+.ghalib,
+.mohsin,
+.iqbal {
+    border: 5px transparent rgb(0, 0, 0);
+    padding: 30px;
+    margin-bottom: 30px;
+    margin: 20px;
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;
+    box-shadow: 5px 2px 5px 2px lightgrey;
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link {
+    margin-top: 15px;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    transition: font-size 0.3s ease;
+}
+
+.link a:hover {
+    font-size: 1.5em;
+    color: blue;
+}
